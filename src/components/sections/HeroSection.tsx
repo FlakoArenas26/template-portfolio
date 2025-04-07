@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../../assets/profile.png';
+// import profileImage from '../../assets/profile.png';
 
 const HeroSection: React.FC = () => {
   return (
@@ -54,7 +54,7 @@ const HeroSection: React.FC = () => {
       <div className="hero-image">
         <div className="arc-reactor-container">
           <div className="avatar-center">
-            <img src={profileImage} alt="Rafael Arenas" loading="lazy"/>
+            {/* <img src={profileImage} alt="Rafael Arenas" loading="lazy"/> */}
           </div>
           {[...Array(6)].map((_, i) => (
             <div key={i} className={`arc-segment arc-segment-${i+1}`}></div>
